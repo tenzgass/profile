@@ -1,0 +1,116 @@
+@import url('https://fonts.googleapis.com/css2?family=Mulish&display=swap');
+
+@media (max-width: 960px) {
+    .container {
+      width: 700px;
+    }
+  }
+  @media (max-width: 720px) {
+    .container {
+      width: 500px;
+    }
+  }
+  @media (max-width: 540px) {
+    .container {
+      width: 300px;
+    }
+  }
+
+body {
+    font-family: 'Mulish', sans-serif;
+    background: #F4F4F4;
+    line-height:22px;
+    font-size: 1.1em;
+}
+
+h1 {
+    color: rgba(253, 211, 92, 1);
+    text-align: center;
+    line-height: 150px;
+    font-size: 4em;
+    font-weight: 900;
+    letter-spacing: 0.2em;
+    text-transform: uppercase;
+}
+
+h2 {
+    color: rgba(0, 0, 0, 1);
+    font-size: 1.2em;
+    font-weight: 600;
+}
+
+p {
+    color: rgba(0, 0, 0, 1);
+    font-size: 1.1em;
+    font-weight: 100;
+}
+
+a {
+	padding: 15px 30px;
+	margin: 10px;
+	display: inline-block;
+	color: #000;
+	background: rgba(253, 211, 92, 1);
+    text-decoration: none;
+}
+
+a:hover {
+    text-decoration: none;
+    color: rgba(255, 255, 255, 1);
+}
+
+.grow-rotate-on-hover {
+    display: inline-block;
+    vertical-align: middle;
+    -webkit-transform: perspective(1px) translateZ(0);
+    transform: perspective(1px) translateZ(0);
+    box-shadow: 0 0 1px rgba(0, 0, 0, 0);
+    -webkit-transition-duration: 0.3s;
+    transition-duration: 0.3s;
+    -webkit-transition-property: transform;
+    transition-property: transform;
+}
+.grow-rotate-on-hover:hover, .grow-rotate-on-hover:focus, .grow-rotate-on-hover:active {
+    -webkit-transform: scale(1.1) rotate(4deg);
+    transform: scale(1.1) rotate(4deg);
+}
+
+.social-icon {
+    font-size: 1.2em;
+    }
+
+ul {
+    list-style-type: none;
+    padding: 0px 20px;
+}
+
+li {
+    line-height:40px;
+    padding: 15px;
+    display: inline-block;
+}
+
+.container-home {
+    width: 100%;
+    margin: 0px auto;
+  }
+
+.card {
+    background: white;
+    margin: 50px auto;
+    padding: 100px;
+    border-radius: 4px;
+    box-shadow: 0 10px 30px rgba(0,0,0,.1);
+    text-align: center;
+    width: 70%;
+}
+
+.card-home {
+    background-image: url("images/tenzin-3.jpg");
+    background-size: cover;
+    background-position: center;
+    width: auto;
+    height: 500px;
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+}
